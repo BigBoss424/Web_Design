@@ -1,0 +1,45 @@
+/*
+Assuming that this is the comment syntax like
+in any other programming language. 
+
+In this I'll be dividing the segment into two one for the grid of my layout and
+another for my styling of the page. Let's begin.
+*/
+
+/* grid.css */
+
+/*
+Orginally got the code for this from certain tutorials online, I plan on modifying them to met
+my needs. 
+*/
+
+/*.grid_1{width: 65px;}
+.grid_2{width: 150px;} */
+
+/* Actually I believe there is a site that generates grids for css called
+http://www.gridulator.com. So fuck the code above I'm gonna use this site */
+
+.grid_1{width: 320px};
+.grid_2{width: 650px};
+.grid_3{width: 235px};
+.grid_4{width: 405px};
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4
+{
+  margin: 0 20px 10px 0;
+  float: left;
+  display: block;
+}
+
+.alpha{margin-left:0px;}
+.omega{margin-right:0px;}
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}

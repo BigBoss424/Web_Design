@@ -1,0 +1,80 @@
+/*This one I plan on personalizing because no one can mimic your own style,
+well actually by posting this on this site people will. But I believe in the good ol' GNU
+everyone should be able to see my code and copy it for their own us as long as they give 
+credit where it's due of course lol. */
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000000;
+  background: #FFFFFF repeat;
+}
+
+
+/*
+Link stuff figure out how to change it to a color that 
+that fits the white background
+*/
+a{
+  color: #4FB69F;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 1.750em;
+  letter-spacing: -1.5px;
+}
+
+h2{
+  font-size: 1.750em;
+  letter-spacing: -1.5px;
+}
+
+.btn{
+  color: #000000; /*Stays black for now*/
+  background: #000000 no-repeat right top;
+  padding: 15px 30px;
+  margin: 40px 0px;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.btn.hover{
+  background-color: yellow; /*stays yellow for now*/
+}
+
+ul.nav{
+  margin: 120px 0 0 0;
+  list-style: none;
+  float: right;
+}
+
+ul.nav li{
+  float: left;
+  margin-right: 40px;
+}
+
+ul.nav li a{
+  color: black; /*black for now*/
+}
+
+#para1{
+  margin 50px 0 75px 0;
+}
+
+#progress
+{
+  border: 8px solid #000000;
+  margin: 0 0 20px 0;
+}
+
+#randomthoughts
+{
+  border: 8px solid #000000;
+}
+
+#copyright{
+  border-top: 8px solid #000000;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  text-align: center;
+}

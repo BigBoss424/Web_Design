@@ -1,0 +1,56 @@
+/* Your Website Styles */
+#header
+{	
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: none;
+	text-decoration: underline;
+	letter-spacing: 0.422em;
+	word-spacing: 0.102em;
+	line-height: 1.4;
+}
+
+#intro{
+	font-family: 'IM Fell French Canon', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0.151em;
+	word-spacing: 0.401em;
+	line-height: 1.4;
+}
+
+#subheader
+{
+	font-family: 'IM Fell French Canon SC', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	text-transform: capitalize;
+	text-decoration: underline;
+	letter-spacing: 0.246em;
+	word-spacing: 0.31em;
+	line-height: 1.4;
+}
+
+#bodytext{
+	font-family: 'Libre Baskerville', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0.107em;
+	word-spacing: 0.255em;
+	line-height: 1.4;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

@@ -1,0 +1,56 @@
+/* Your Website Styles */
+#header1{
+	font-family: 'Butcherman', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: capitalize;
+	text-decoration: none;
+	letter-spacing: 0.692em;
+	word-spacing: 0.212em;
+	line-height: 1.41;
+}
+
+#subheader
+{
+	font-family: 'Hanalei Fill', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.157em;
+	word-spacing: 0.12em;
+	line-height: 1.4;
+}
+
+#bodytext
+{
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0.107em;
+	word-spacing: 0.328em;
+	line-height: 1.4;
+}
+
+#description
+{
+	font-family: 'Jolly Lodger', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0.076em;
+	word-spacing: 0.328em;
+	line-height: 1.4;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

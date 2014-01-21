@@ -3,6 +3,9 @@ well actually by posting this on this site people will. But I believe in the goo
 everyone should be able to see my code and copy it for their own us as long as they give 
 credit where it's due of course lol. */
 
+html{
+  background-color: steelblue;
+}
 body{
   font-family: 'Josefin Sans', sans-serif;
   color: #000000;
@@ -19,21 +22,26 @@ a{
   text-decoration: none;
 }
 
+a.hover{
+  background-color: blue;
+}
 h1{
   font-size: 1.750em;
   letter-spacing: -1.5px;
+  text-align: center;
 }
 
 h2{
   font-size: 1.750em;
   letter-spacing: -1.5px;
+  text-align:center;
 }
 
 .btn{
-  color: #000000; /*Stays black for now*/
-  background: #000000 no-repeat right top;
+  color: blue; /*Stays black for now*/
+  background: transparent no-repeat right top;
   padding: 15px 30px;
-  margin: 40px 0px;
+  margin: 30px 0px;
   border-radius: 25px;
   text-transform: uppercase;
 }
@@ -69,12 +77,13 @@ ul.nav li a{
 
 #randomthoughts
 {
-  border: 8px solid #000000;
+  border: 8px solid grey;
 }
 
 #copyright{
   border-top: 8px solid #000000;
   padding: 10px 0px;
-  margin: 15px 0px;
+  margin: 15px 12px;
   text-align: center;
+  background-color: lightblue;
 }

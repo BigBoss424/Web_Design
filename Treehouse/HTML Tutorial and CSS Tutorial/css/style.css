@@ -1,0 +1,59 @@
+@import 'css/more-styles.css';
+
+h1{
+		color:white;
+		background-color: #E14607;
+	}
+
+
+h2{
+	color: steelblue;
+	padding-bottom: 10px;
+	border-bottom: 2px dotted;
+
+}
+
+body{
+	font: normal 1.2em/1.5 sans-serif;
+	padding: 2em 0;
+}
+
+div{
+	width: 700px;
+	padding: 2em;
+	margin: auto;
+	margin-top: -8em;
+	background-image: url( 'bg.jpg');
+
+}
+
+p{
+	color:red;
+}
+
+p{
+	color: inherit;
+}
+
+strong{
+	color: -moz-initial;
+}
+
+div:after{
+	content:"A gtring "\stuff\" example";
+	font-size: 1.5em;
+	color:blue;
+	font-style: italic;
+}
+
+ol{
+	color:white;
+	background-color: steelblue;
+
+
+}
+
+/*Color values*/
+div{
+	background-color: red;
+}
